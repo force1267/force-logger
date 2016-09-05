@@ -15,12 +15,19 @@ flog = require("force-logger")("dirToMasterLog.json(masterLog's dir)", optionalS
 __new log :__
 
 options = {
+
   time : optional Javascript Date() // default is now
+  
   ,info : optional object // with any information in it
+  
   ,msg : optional string
+  
   ,tags : optional array // of strings. default is ["default"]
+  
 }
+
 flog.log(options)
+
 // your log is now saved inside latest logfile inside masterlog's/logs dir
 
 __search in saved logs :__
