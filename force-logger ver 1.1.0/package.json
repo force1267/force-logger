@@ -1,0 +1,22 @@
+{
+    "name": "force-logger",
+    "version": "1.1.0",
+    "description": "simple but powerful logger system on JSON (save and search)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "jsop": "*"
+    },
+    "keywords": [
+        "log",
+        "search"
+    ],
+    "author": "Force1267",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/force1267/force-logger"
+    }
+}
