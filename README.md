@@ -44,6 +44,12 @@ options = {
 
 flog.search(options)
 
-// returns an array of saved log objects that have one of tags (not all of them)
+// returns an array of saved log objects that have all of options.tags
 
 _search will be updated with more features_
+
+change log:
+1.1.1 :
+bugFix
+1.1.0 :
+search returns an array of saved log objects that have _all_ of options.tags (instead of _one_)
