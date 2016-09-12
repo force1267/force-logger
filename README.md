@@ -49,7 +49,11 @@ flog.search(options)
 _search will be updated with more features_
 
 change log:
+
 1.1.1 :
+
 bugFix
+
 1.1.0 :
+
 search returns an array of saved log objects that have _all_ of options.tags (instead of _one_)
