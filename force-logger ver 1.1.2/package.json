@@ -1,0 +1,32 @@
+{
+  "name": "force-logger",
+  "version": "1.1.2",
+  "description": "simple but powerful logger system on JSON (save and search)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jsop": "*"
+  },
+  "keywords": [
+    "log",
+    "search"
+  ],
+  "author": {
+    "name": "Force1267"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/force1267/force-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/force1267/force-logger/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/force1267/force-logger#readme",
+  "_id": "force-logger@1.1.0",
+  "_shasum": "fad74eb15d2dc5e5563c810e6e50928847836f39",
+  "_from": "force-logger@latest"
+}
