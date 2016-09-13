@@ -45,7 +45,7 @@ options = {
 
 flog.search(options)
 
-// returns an array of saved log objects that have all of options.tags and non of options.nots
+// returns an array of saved log objects that have all of options.tags and non of options.nots between options.from to options.to
 
 _search will be updated with more features_
 
