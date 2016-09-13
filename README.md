@@ -12,7 +12,7 @@ Create masterLog's/Logs dir (name must be logs)
 flog = require("force-logger")("dirToMasterLog.json(masterLog's dir)", optionalStartTime[:Javascript Date()])
 
 
-__new log :__
+__New log :__
 
 options = {
 
@@ -30,7 +30,7 @@ flog.log(options)
 
 // your log is now saved inside latest logfile inside masterlog's/logs dir
 
-__search in saved logs :__
+__Search in saved logs :__
 
 options = {
 
@@ -46,11 +46,11 @@ options = {
 
 flog.search(options)
 
-// returns an array of saved log objects that have all of options.tags and non of option.nots
+// returns an array of saved log objects that have all of options.tags and non of options.nots
 
 _search will be updated with more features_
 
-change log:
+_Change log:_
 
 1.1.2:
 
