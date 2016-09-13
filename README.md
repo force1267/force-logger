@@ -9,8 +9,7 @@ Create masterLog's dir (any name)
 
 Create masterLog's/Logs dir (name must be logs)
 
-flog = require("force-logger")("dirToMasterLog.json(masterLog's dir)", optionalStartTime[:Javascript Date()])
-
+flog = require("force-logger")("dirToMasterLog's folder" ,optionalStartTime : Javascript Date())
 
 __New log :__
 
