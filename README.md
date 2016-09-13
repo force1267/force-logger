@@ -66,5 +66,5 @@ _Change log:_
 
 -search returns an array of saved log objects that have _all_ of options.tags (instead of _one_)
 
--added option.nots, search returns an array of logs that have _non_ of option.nots
+-added options.nots, search returns an array of logs that have _non_ of options.nots
 
