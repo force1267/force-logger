@@ -40,20 +40,31 @@ options = {
   
   ,tags : optional array // of strings. default is ["default"]
   
+  ,nots : optional array // of srtings. default is []
+  
 }
 
 flog.search(options)
 
-// returns an array of saved log objects that have all of options.tags
+// returns an array of saved log objects that have all of options.tags and non of option.nots
 
 _search will be updated with more features_
 
 change log:
 
+1.1.2:
+
+-bugFix
+
+-Does the job correctly
+
 1.1.1 :
 
-bugFix
+-bugFix
 
 1.1.0 :
 
-search returns an array of saved log objects that have _all_ of options.tags (instead of _one_)
+-search returns an array of saved log objects that have _all_ of options.tags (instead of _one_)
+
+-added option.nots, search returns an array of logs that have _non_ of option.nots
+
